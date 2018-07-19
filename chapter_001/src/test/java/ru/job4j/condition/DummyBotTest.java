@@ -36,4 +36,12 @@ public class DummyBotTest {
                 is("Это ставит меня в тупик. Спросите другой вопрос.")
         );
     }
+    @Test
+    public void whenUnknownTwoBot() {
+        DummyBot bot = new DummyBot();
+        assertThat(
+                bot.answer("Пока"),
+                is("Это ставит меня в тупик. Спросите другой вопрос.")
+        );
+    }
 }
