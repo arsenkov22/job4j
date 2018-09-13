@@ -1,4 +1,4 @@
-package ru.job4j.Board;
+package ru.job4j.board;
 
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;

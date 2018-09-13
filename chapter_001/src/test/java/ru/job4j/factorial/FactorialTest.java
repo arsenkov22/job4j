@@ -1,4 +1,4 @@
-package ru.job4j.Factorial;
+package ru.job4j.factorial;
 
 import org.junit.Test;
 
